@@ -111,3 +111,67 @@ h1{
     background-color: pink;
     transform: translate(10px);
 }
+/* ..........about......... */
+.about{
+    display: flex;
+    align-items: center;
+
+}
+.about-text{
+    padding-left: 50px;
+}
+.about-image img{
+   width: 450px;
+   border-radius: 5px;
+}
+.a-btn{
+    border: none;
+    border-radius: 3px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.a-btn:hover{
+    background-color: pink;
+    transform: translate(10px);
+}
+/* ........footer.......... */
+.footer{
+    background-color: #000000;
+}
+.f-text{
+    color: #FFF;
+}
+#twi{
+    border: none;
+}
+#fac{
+    border: none;
+}
+.f-icon{
+    color: #FFF;
+    font-size: 25px;    
+}
+.fa-skype{
+    padding: 5px;
+}
+.fa-google{
+    padding: 5px;
+}
+.fa-instagram{
+    padding: 5px;
+}
+.f-last{
+    color: #FFF;
+    padding-top: 10px;
+}
+.c{
+    border: 2px solid;
+   padding: 3px;
+   border-radius: 50%;
+}
+small{
+    padding-bottom: 10px;
+}
+span{
+    color: rgb(37, 37, 124);
+}
