@@ -1,6 +1,31 @@
 body{
     font-family: 'Alkalami', serif;
 }
+/* .....navbar....... */
+.navbar{
+    background-color: pink;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 200px;
+    font-family: 'Courier New';
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size:20px;
+    transition: 0.4s;
+}
+ul li a:hover{
+    color: #FFF;
+}
 
 
 .head{
@@ -67,23 +92,36 @@ h1{
 .content{
     padding-top: 150px;
 }
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
 .content p{
     margin-left: 200px;
+    color: #000000;
 }
 .btn-1{
     margin-left: 200px;
     border: none;
     border: 2px solid gray;
-    height: 30px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #000000;
 }
 .btn-1:hover{
     background-color: rgb(34, 74, 34);
 }
+/* .......service part....... */
 .card-body button{
     border: 2px solid grey;
     border-radius: 3px;
     background-color: #FFF;
     font-weight: bold;
+}
+.card-body button:hover{
+    background-color: gray;
 }
 /* ...........card-2........ */
 .best-chair{
